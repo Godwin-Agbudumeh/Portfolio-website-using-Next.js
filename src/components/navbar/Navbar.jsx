@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './navbar.module.css'
+import DarkModeToggle from '../DarkModeToggle/DarkModeToggle';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -17,6 +18,7 @@ export default function Navbar() {
       <div className={styles.leftNavbar}>
         <Link href="/">Godwin Portfolio</Link>
       </div>
+      <DarkModeToggle />
       <div className={styles.rightNavbar}>
         <ul className={styles.list}>
           <li className={styles.item}>Home</li>
