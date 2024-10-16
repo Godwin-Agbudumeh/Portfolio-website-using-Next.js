@@ -39,9 +39,10 @@ export default function Navbar() {
               <li className={styles.mobileItem}>Contact</li>
               <li className={styles.mobileItem}>About</li>
             </ul>
-        </div>
+          </div>
         )
       }
+      <div className={styles.navbarLine}></div>
     </div>
   )
 }

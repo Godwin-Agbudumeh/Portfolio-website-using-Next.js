@@ -1,3 +1,21 @@
 .container{
   min-height: 80vh;
 }
+
+.item{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.imgContainer{
+  flex: 1;
+  height: 500px;
+  /* position: relative; */
+}
+
+.img{
+  object-fit: cover;
+}
