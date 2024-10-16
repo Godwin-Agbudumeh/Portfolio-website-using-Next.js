@@ -26,14 +26,16 @@ export default function Home() {
             <div className={styles.imgContainer}>
               <Image
                 className={styles.img}
-                // fill={true}
                 src={portfolioImage}
               />
             </div>
             <div className={styles.content}>
               <h2 className={styles.title}>{item.title}</h2>
               <p className={styles.desc}>{item.desc}</p>
-              <Button text="See More" url="#"/>
+              <div className={styles.button}>
+                <Button text="Visit Site" url={item.url}/>
+                <Button text="View Github Source Code" url={item.gitUrl}/>
+              </div>
             </div>
           </div>
         ))

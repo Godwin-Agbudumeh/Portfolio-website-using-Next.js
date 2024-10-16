@@ -18,14 +18,14 @@ export default function Navbar() {
   return (
     <div className={styles.container}>
       <div className={styles.leftNavbar}>
-        <Link href="/">Godwin Portfolio</Link>
+        <Link href="/"><span className={styles.siteTitle}>Godwin</span><span className={styles.siteTitleTwo}>Portfolio</span></Link>
       </div>
       <DarkModeToggle />
       <div className={styles.rightNavbar}>
         <ul className={styles.list}>
-          <li className={styles.item}>Home</li>
-          <li className={styles.item}>Contact</li>
-          <li className={styles.item}>About</li>
+          <li className={styles.item}><Link href="/">Home</Link></li>
+          <li className={styles.item}><Link href="/contact">Contact</Link></li>
+          <li className={styles.item}><Link href="/about">About</Link></li>
         </ul>
       </div>
       <div className={styles.mobileMenuDiv}>
@@ -35,9 +35,9 @@ export default function Navbar() {
         menuDisplay && (
           <div className={mode==='light' ? styles.mobileMenuLight : styles.mobileMenu}>
             <ul className={styles.mobileList}>
-              <li className={styles.mobileItem}>Home</li>
-              <li className={styles.mobileItem}>Contact</li>
-              <li className={styles.mobileItem}>About</li>
+              <li className={styles.mobileItem}><Link href="/">Home</Link></li>
+              <li className={styles.mobileItem}><Link href="/contact">Contact</Link></li>
+              <li className={styles.mobileItem}><Link href="/about">About</Link></li>
             </ul>
           </div>
         )

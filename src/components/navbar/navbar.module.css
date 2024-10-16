@@ -10,6 +10,19 @@
     margin-left: 40px;
 }
 
+.container .siteTitle{
+    font-weight:  bold;
+    font-size: 22px;
+}
+
+.container .siteTitleTwo{
+    font-weight:  bold;
+    font-size: 18px;
+    font-style: italic;
+    color: #32a6dc;
+    margin-left: 4px;
+}
+
 .container .list{
     list-style-type: none;
     display: flex;

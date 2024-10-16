@@ -1,4 +1,22 @@
 .container{
-    background-color: red;
-    height: 70px;
+    
+}
+
+.container .footerLine{
+    width: 100%;
+    border-top: 1px solid rgb(88, 108, 113);
+}
+
+.container .content{
+    margin-left: 20px;
+    padding: 20px;
+}
+
+@media screen and (max-width:900px) {
+    .container .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
