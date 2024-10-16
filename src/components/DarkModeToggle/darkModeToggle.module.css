@@ -1,7 +1,7 @@
 .container{
     width: 42px;
     height: 24px;
-    border: 1.5px solid #53c28b70;
+    border: 1.5px solid rgb(107, 107, 123);
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -11,14 +11,20 @@
     cursor: pointer;
 } 
 
-.icon{
+.sunIcon{
     font-size: 12px;
+    color: rgb(255, 136, 0);
+}
+
+.moonIcon{
+    font-size: 12px;
+    color: rgb(88, 108, 113);
 }
 
 .ball{
     width: 15px;
     height: 15px; 
-    background-color: #53c28b;
+    background-color: #c2f9de;
     border-radius: 50%;
     position: absolute;
 }
