@@ -1,5 +1,5 @@
-import PortfolioImage from '../../public/PortfolioImage.jpg';
-import DevlyfImage from '../../public/DevlyfImage.png';
+// import PortfolioImage from '../../PortfolioImage.jpg';
+// import DevlyfImage from '../../DevlyfImage.png';
 
 export const items = [
     {
@@ -8,7 +8,7 @@ export const items = [
         desc: "This is a full stack Content Creation Web App built with React.js, Express.js, Node.js and a MySql database.",
         url: "https://www.devlyf.com",
         gitUrl: "https://github.com/Godwin-Agbudumeh/Full-Stack-Content-Creation-Web-App-using-React.js-Express.js-Node.js-and-MySql",
-        img: DevlyfImage
+        img: "/DevlyfImage.png"
     },
     {
         id: 2,
@@ -16,6 +16,6 @@ export const items = [
         desc: "A great looking Portfolio Website built entirely with Next.js",
         url: "#",
         gitUrl: "https://github.com/Godwin-Agbudumeh/Portfolio-website-using-Next.js",
-        img: PortfolioImage
+        img: "/PortfolioImage.jpg"
     }
 ]

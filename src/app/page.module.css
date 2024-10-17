@@ -16,12 +16,13 @@
 }
 
 .imgContainer{
+  position: relative;
   height: 300px;
 }
 
 .img{
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
 }
 
@@ -55,6 +56,13 @@
     height: 500px;
     position: relative;
     padding: 30px;
+  }
+
+  .img{
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+    padding: 30px;;
   }
 
   .content{
