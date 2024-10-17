@@ -15,7 +15,7 @@ export const items = [
         id: 2,
         title: "Portfolio Website",
         desc: "A great looking Portfolio Website built entirely with Next.js",
-        url: "godwin-agbudumeh.vercel.app",
+        url: "https://godwin-agbudumeh.vercel.app",
         gitUrl: "https://github.com/Godwin-Agbudumeh/Portfolio-website-using-Next.js",
         img: portfolioImage
     }
