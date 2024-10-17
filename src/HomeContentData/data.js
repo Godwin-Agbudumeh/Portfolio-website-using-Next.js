@@ -1,5 +1,5 @@
 import PortfolioImage from '../../public/portfolioImage.jpg';
-import DevlyfImage from '../../public/devlyfImage.png';
+import DevlyfImage from '../../public/DevlyfImage.png';
 
 export const items = [
     {
