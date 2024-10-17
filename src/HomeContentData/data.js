@@ -1,4 +1,4 @@
-import portfolioImage from '../../public/portfolioImage.jpg';
+import portfolioImage from '../../public/portfolioImage.png';
 import webImage from '../../public/webImage.png';
 
 
@@ -15,7 +15,7 @@ export const items = [
         id: 2,
         title: "Portfolio Website",
         desc: "A great looking Portfolio Website built entirely with Next.js",
-        url: "#",
+        url: "godwin-agbudumeh.vercel.app",
         gitUrl: "https://github.com/Godwin-Agbudumeh/Portfolio-website-using-Next.js",
         img: portfolioImage
     }
