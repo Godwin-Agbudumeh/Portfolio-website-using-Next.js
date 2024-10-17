@@ -5,7 +5,6 @@ import ContactImage from '../../../public/contactImage.png';
 import styles from './page.module.css'
 import emailjs from '@emailjs/browser';
 
-
 export default function Contact() {
   const[emailSuccess, setEmailSuccess] = useState(false);
   const[emailError, setEmailError] = useState(false);
