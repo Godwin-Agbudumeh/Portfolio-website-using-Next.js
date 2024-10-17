@@ -8,7 +8,7 @@ import Button from '@/components/Button/Button'
 export default function Contact() {
   return (
     <div className={styles.container}> 
-      <h1 className={styles.title}>Let's keep in touch</h1>
+      <h1 className={styles.title}>Contact Me</h1>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Image 
