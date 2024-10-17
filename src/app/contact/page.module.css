@@ -57,8 +57,22 @@
 
 .container .button{
     margin-bottom: 20px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #32a6dc;
+    border: none;
+    border-radius: 5px;   
+    width: max-content;
+    color: white; 
 }
 
+.successMessage{
+    color:teal;
+}
+
+.errorMessage{
+    color: red;
+}
 /* media queries */
 @media screen and (min-width:900px){
     .content{

@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import portfolioImage from '../../public/portfolioImage.jpg';
 import Button from '@/components/Button/Button';
-import {items} from '../ContentData/data.js';
+import {items} from '../HomeContentData/data.js';
 import {notFound} from "next/navigation";
 
 const getData = ()=>{
