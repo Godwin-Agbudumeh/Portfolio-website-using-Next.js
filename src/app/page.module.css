@@ -36,6 +36,7 @@
 
 .container .button{
   display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
@@ -59,4 +60,9 @@
   .content{
     flex: 1;
   }
+
+  .container .button{
+    flex-direction: row;
+  }
+  
 }

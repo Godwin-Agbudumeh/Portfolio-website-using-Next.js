@@ -9,7 +9,7 @@ import emailjs from '@emailjs/browser';
 export default function Contact() {
   const[emailSuccess, setEmailSuccess] = useState(false);
   const[emailError, setEmailError] = useState(false);
-  const[isFetching, setIsFetching] = useState(true);
+  const[isFetching, setIsFetching] = useState(false);
 
   const [inputs, setInputs] = useState({
     name: "",
