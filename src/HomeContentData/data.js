@@ -1,4 +1,4 @@
-import PortfolioImage from '../../public/portfolioImage.jpg';
+import PortfolioImage from '../../public/PortfolioImage.jpg';
 import DevlyfImage from '../../public/DevlyfImage.png';
 
 export const items = [
