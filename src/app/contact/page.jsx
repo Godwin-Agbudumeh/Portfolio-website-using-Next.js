@@ -1,7 +1,7 @@
 "use client"
 import React, {useState} from 'react'
 import Image from "next/image";
-import ContactImage from '../../../public/contactImage.png';
+import ContactImage from '../../../public/ContactImage.png';
 import styles from './page.module.css'
 import emailjs from '@emailjs/browser';
 
