@@ -1,7 +1,7 @@
 "use client"
 import React, {useState} from 'react'
 import Image from "next/image";
-import ContactImage from '../../../public/ContactImage.png';
+import contactImage from '../../../public/contactImage.png';
 import styles from './page.module.css'
 import emailjs from '@emailjs/browser';
 
@@ -52,7 +52,7 @@ export default function Contact() {
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Image 
-            src={ContactImage}
+            src={contactImage}
             alt=""
             className={styles.image}
           />
