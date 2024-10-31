@@ -1,5 +1,6 @@
 .container{
   min-height: 80vh;
+  padding: 10px 10px;
 }
 
 .portfolioHeading{
@@ -17,6 +18,7 @@
 
 .imgContainer{
   height: 300px;
+  border: 1px solid #bbb;
 }
 
 .img{

@@ -18,7 +18,7 @@ export default function Home() {
   const data = getData();
   return (
     <div className={styles.container}>
-      <h1 className={styles.portfolioHeading}>My works</h1>
+      <h1 className={styles.portfolioHeading}>My latest works</h1>
       {
         data.map((item)=>(
           <div className={styles.item} key={item.id}>
