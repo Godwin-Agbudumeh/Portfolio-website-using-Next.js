@@ -1,4 +1,4 @@
-// import aiImage from '../../public/aiImage.png';
+import chatImage from '../../public/chatImage.png';
 import portfolioImage from '../../public/portfolioImage.png';
 import webImage from '../../public/webImage.png';
 
@@ -9,7 +9,7 @@ export const items = [
         desc: "This is a full-stack Chat AI app built with React, Express, Node and a MongoDB database.",
         url: "https://godwin-ai-client.devlyf.com",
         gitUrl: "https://github.com/Godwin-Agbudumeh/Full-Stack-Chat-AI-using-React-Express-Node-and-MongoDB",
-        img: portfolioImage
+        img: chatImage
     },
     {
         id: 2,
