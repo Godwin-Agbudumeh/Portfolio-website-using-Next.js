@@ -26,7 +26,6 @@ export default function Home() {
               <Image
                 className={styles.img}
                 src={item.img}
-                alt=""
               />
             </div>
             <div className={styles.content}>
