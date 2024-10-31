@@ -16,7 +16,7 @@ const getData = ()=>{
 export default function Contact() {
   const data = getData();
   return (
-    <div className={styles.container}>
+    <div className={styles.contactContainer}>
         <h1 className={styles.title}>About Me</h1>
         <div className={styles.content}>
             <p>{data.desc}</p>
