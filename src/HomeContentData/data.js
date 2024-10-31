@@ -1,7 +1,6 @@
+import aiImage from '../../public/aiImage.png';
 import portfolioImage from '../../public/portfolioImage.png';
 import webImage from '../../public/webImage.png';
-import aiImage from '../../public/aiImage.png';
-
 
 export const items = [
     {
