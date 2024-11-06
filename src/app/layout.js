@@ -11,7 +11,7 @@ config.autoAddCss = false
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Godwin Portfolio",
+  title: "Godwin Agbudumeh Portfolio",
   description: "Godwin Agbudumeh portfolio site",
 };
 
