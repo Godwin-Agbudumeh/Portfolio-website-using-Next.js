@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <div className={styles.container}>
       <div className={styles.leftNavbar}>
-        <Link href="/"><span className={styles.siteTitle}>Godwin</span><span className={styles.siteTitleTwo}>Portfolio</span></Link>
+        <Link href="/"><span className={styles.siteTitle}>Godwin Agbudumeh</span><span className={styles.siteTitleTwo}>Portfolio</span></Link>
       </div>
       <DarkModeToggle />
       <div className={styles.rightNavbar}>
