@@ -5,19 +5,19 @@ import webImage from '../../public/webImage.png';
 export const items = [
     {
         id: 1,
-        title: "Full Stack Chat AI App",
-        desc: "This is a full-stack Chat AI app built with React, Express, Node and a MongoDB database.",
-        url: "https://godwin-ai-client.devlyf.com",
-        gitUrl: "https://github.com/Godwin-Agbudumeh/Full-Stack-Chat-AI-using-React-Express-Node-and-MongoDB",
-        img: chatImage
-    },
-    {
-        id: 2,
         title: "Full Stack Content Creation Web App",
         desc: "A full-stack Content Creation Web App built with React, Express, Node and a MySQL database.",
         url: "https://www.devlyf.com",
         gitUrl: "https://github.com/Godwin-Agbudumeh/Full-Stack-Content-Creation-Web-App-using-React.js-Express.js-Node.js-and-MySql",
         img: webImage
+    },
+    {
+        id: 2,
+        title: "Full Stack Chat AI App",
+        desc: "This is a full-stack Chat AI app built with React, Express, Node and a MongoDB database.",
+        url: "https://godwin-ai-client.devlyf.com",
+        gitUrl: "https://github.com/Godwin-Agbudumeh/Full-Stack-Chat-AI-using-React-Express-Node-and-MongoDB",
+        img: chatImage
     },
     {
         id: 3,
