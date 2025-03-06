@@ -15,7 +15,7 @@ export const items = [
         id: 2,
         title: "Full Stack Chat AI App",
         desc: "A full-stack Chat AI app built with React, Express, Node and a MongoDB database.",
-        url: "https://godwin-ai-client.devlyf.com",
+        url: "https://godwin-chat-ai.vercel.app",
         gitUrl: "https://github.com/Godwin-Agbudumeh/Full-Stack-Chat-AI-using-React-Express-Node-and-MongoDB",
         img: chatImage
     },
